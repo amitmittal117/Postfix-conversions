@@ -42,5 +42,6 @@ def evaluate(str_in):
 
 	return (stack.pop())
 
-
-print(evaluate("1 3 * 125 +"))
+equation = "1 3 * 125 +"
+print("Equation: '" + equation + "'")
+print(evaluate(equation))
